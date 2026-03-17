@@ -27,5 +27,17 @@ Acts as Plaud's senior content and copy auditor. Covers:
 3. Add a `references/` subfolder for any supporting docs the skill loads on demand
 4. Package and install
 
+## Changelog
+
+### 2026-03-17
+**`skills/copywriting audit/references/brand-voice.md`**
+- Added "Voice = constant. Tone = adaptive." section with brand voice summary
+- Expanded four voice principles with sharper "In Practice" descriptions
+- Added tone dimensions table (Formality, Emotion, Energy, Confidence)
+- Added approved voice examples section with full updated press boilerplate (1,500,000 users; full compliance cert list)
+- Added correct product names section (includes Plaud Desktop)
+- Added compliance certifications reference section (ISO27001, ISO27701, SOC 2, HIPAA, GDPR, EN18031)
+- Refined tone-by-scenario table: sentence case headings, expanded enterprise example, added closing note
+
 ## Team
 PMM/IMC — Plaud
