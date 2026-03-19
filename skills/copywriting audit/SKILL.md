@@ -1,5 +1,5 @@
 ---
-name: plaud-copywriting
+name: plaud-copywriting-audit
 description: >
   Content and copywriting auditor for Plaud. Use for auditing, reviewing, QA-ing, and rewriting
   copy across any deliverable: DTC pages, Amazon listings, Google Docs, Google Sheets, Notion docs,
@@ -10,7 +10,7 @@ description: >
   Over-trigger rather than under-trigger.
 ---
 
-# Plaud Content & Copywriting Audit Skill
+# Plaud Copywriting Audit Skill
 
 ## Role
 Act as Plaud's senior content and copy auditor.
@@ -188,3 +188,105 @@ For full rules → `references/content-types.md`
 | `references/style-guide.md` | Capitalization, punctuation, numbers, localization rules |
 | `references/content-types.md` | Full rules for a specific content type |
 | `references/audit-template.md` | Cross-deliverable audit report structure |
+
+---
+
+## SSOT fact-check — product claims verification
+
+Run this step on every audit that involves product features, capabilities, or claims.
+
+### The three SSOT databases
+
+Always query these Notion databases when fact-checking product copy. Use Notion MCP to fetch live data.
+
+**1. Products SSOT**
+Collection: `collection://bc2e7cc8-15d3-419d-a270-7a0864ad5c7b`
+Notion URL: https://www.notion.so/2e70f69f872f44d09e0873aadbe42d9f
+
+Fields to use:
+- `Product` — official product name (check capitalization in copy matches exactly)
+- `Type` — Software or Hardware (flag if copy misclassifies)
+- `Surface` — App (Mobile), Web, Desktop, Teams, Developer (API/SDK), Device
+- `Launch date` — verify copy doesn't promote unreleased products as available
+
+**2. Capabilities SSOT (Plaud Intelligence)**
+Collection: `collection://2b2fcdcc-5bfc-45a9-8abe-39c45fa0b552`
+Notion URL: https://www.notion.so/61a5fb39f0664f9cb989b012dc47b873
+
+Fields to use:
+- `Capability` — official capability name
+- `Category` — Capture / Extract / Utilize / Agent / Multi-context
+- `One-linear` — approved customer-facing one-liner (check copy matches or is consistent)
+- `Key benefit` — approved benefit claim (flag if copy overstates or contradicts)
+- `What it does (internal)` — internal truth (use to catch overstatements in copy)
+- `Product messaging (internal)` — canonical messaging copy should inherit from
+- `Competitive advantage` — Unique to Plaud / Best in Class / Parity / Weak (flag if copy claims "unique" or "best" for a Parity or Weak capability)
+- `Legal/privacy/security notes` — hard stop: if this field has content, copy must not contradict it
+- `Release notes copy` — approved release copy
+- `Newsletter copy` — approved newsletter copy
+
+**3. Features SSOT (Plaud Intelligence)**
+Collection: `collection://bf7a3d09-9d0b-4140-ba10-de7019c08722`
+Notion URL: https://www.notion.so/ee6154640f604da29a2a56ae99e364b1
+
+Fields to use:
+- `Feature` — official feature name
+- `Status` — Released / Beta testing / Updating / Coming soon / N/A
+- `One-liner (customer-facing)` — approved claim for this feature
+- `Key benefit` — approved benefit
+- `What it does (internal)` — internal truth
+- `Product messaging (SSOT for copy inheriting)` — canonical copy to inherit from
+- `Competitive advantage` — Unique in Plaud / Best in Class / Parity / Weak
+- `Supported platform` — App / Web / Desktop (flag if copy claims availability on wrong platform)
+- `Applies to products` — which products this feature belongs to
+- `Priority` — P0 / P1 / P2 / P3 (flag if low-priority feature is over-promoted)
+- `Legal/privacy/security notes` — hard stop: never contradict this field
+
+---
+
+### Fact-check workflow
+
+**Step 1 — Extract all claims from the copy**
+Identify every sentence that makes a product, feature, or capability claim. List them.
+
+**Step 2 — Match each claim to the SSOT**
+For each claim:
+1. Search the Features SSOT first — most specific
+2. If not found at feature level, search Capabilities SSOT
+3. If not found at capability level, search Products SSOT
+
+Use Notion MCP: fetch the relevant collection and search by feature/capability name.
+
+**Step 3 — Run these checks on each matched entry**
+
+| Check | What to verify | Flag if |
+|---|---|---|
+| Claim accuracy | Copy matches `One-liner (customer-facing)` or `Key benefit` | Copy overstates, contradicts, or invents a claim not in SSOT |
+| Messaging alignment | Copy is consistent with `Product messaging (SSOT for copy inheriting)` | Copy drifts from canonical messaging |
+| Release status | `Status` = Released | Copy promotes a "Coming soon" or "Beta testing" feature as if live |
+| Platform accuracy | Copy's claimed platform matches `Supported platform` | Feature claimed on App but only available on Desktop, etc. |
+| Competitive claim | `Competitive advantage` = Unique in Plaud or Best in Class | Copy uses "only", "best", "fastest" for a Parity or Weak feature |
+| Legal/privacy | `Legal/privacy/security notes` is empty | Copy contradicts or ignores a legal note in this field |
+| Product match | Feature `Applies to products` includes the product being copied | Copy attributes a feature to a product it doesn't belong to |
+| Unmatched claim | Claim found in copy but not in any SSOT database | Flag as unverified — needs PMM review before publishing |
+
+**Step 4 — Report findings**
+
+For each claim, output:
+
+```
+Claim: "[exact text from copy]"
+Matched SSOT entry: [Feature/Capability name] or NOT FOUND
+Status: [Released / Coming soon / Beta / etc.]
+Verdict: PASS / FLAG
+Issue: [what's wrong, if flagged]
+SSOT source: [One-liner / Key benefit / Product messaging]
+Recommended fix: [corrected copy based on SSOT]
+```
+
+**Step 5 — Escalate hard stops immediately**
+If any of these are true, flag as HARD STOP before anything else:
+- Copy promotes a "Coming soon" or "Beta testing" feature as generally available
+- Copy contradicts a `Legal/privacy/security notes` field
+- Copy attributes a feature to a product it doesn't apply to
+- Copy makes a "Unique" or "Best" claim for a Parity or Weak capability

@@ -29,6 +29,12 @@ Acts as Plaud's senior content and copy auditor. Covers:
 
 ## Changelog
 
+### 2026-03-19
+**`skills/copywriting audit/SKILL.md`**
+- Renamed skill ID from `plaud-copywriting` to `plaud-copywriting-audit`
+- Added `SSOT fact-check` section: live Notion MCP queries against three databases (Products, Capabilities, Features) to verify every product claim in copy before publishing
+- Fact-check workflow covers claim extraction, SSOT matching, 8-point check table, structured output format, and hard-stop escalation rules
+
 ### 2026-03-17
 **`skills/copywriting audit/references/brand-voice.md`**
 - Added "Voice = constant. Tone = adaptive." section with brand voice summary
