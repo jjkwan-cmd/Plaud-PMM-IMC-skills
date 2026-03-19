@@ -188,6 +188,7 @@ For full rules → `references/content-types.md`
 | `references/style-guide.md` | Capitalization, punctuation, numbers, localization rules |
 | `references/content-types.md` | Full rules for a specific content type |
 | `references/audit-template.md` | Cross-deliverable audit report structure |
+| `references/product-facts.md` | Cached product specs, approved claims, and common claim errors — use for fast fact-checking without MCP |
 
 ---
 

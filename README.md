@@ -30,6 +30,15 @@ Acts as Plaud's senior content and copy auditor. Covers:
 
 ## Changelog
 
+### 2026-03-18
+**`skills/copywriting audit/references/product-facts.md`** _(new file)_
+- Added cached product fact sheet covering all four hardware devices (Note Pro, Note, NotePin, NotePin S) and all software products
+- Includes approved claims, hardware specs, per-product claim flags, shared Plaud Intelligence features, compliance certifications, and a common claim errors table
+- Acts as a fast-reference fallback when Notion MCP is unavailable; live Notion SSOT remains the source of truth
+
+**`skills/copywriting audit/SKILL.md`**
+- Added `product-facts.md` to the references table
+
 ### 2026-03-19
 **`skills/copywriting audit/SKILL.md`**
 - Renamed skill ID from `plaud-copywriting` to `plaud-copywriting-audit`
