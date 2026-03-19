@@ -30,7 +30,7 @@ Acts as Plaud's senior content and copy auditor. Covers:
 
 ## Changelog
 
-### 2026-03-18
+### 2026-03-19
 **`skills/copywriting audit/references/product-facts.md`** _(new file)_
 - Added cached product fact sheet covering all four hardware devices (Note Pro, Note, NotePin, NotePin S) and all software products
 - Includes approved claims, hardware specs, per-product claim flags, shared Plaud Intelligence features, compliance certifications, and a common claim errors table
