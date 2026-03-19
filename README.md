@@ -17,6 +17,7 @@ Acts as Plaud's senior content and copy auditor. Covers:
 - QA against brand voice, style guide, and content-type rules
 - Cross-deliverable content audits
 - Diagnosing issues across DTC pages, ads, EDMs, social, PR, UX, decks, Amazon listings
+- Product claim fact-checking against the Products, Capabilities, and Features SSOT databases in Notion (via MCP) — flags inaccurate claims, wrong platform attribution, unreleased features promoted as live, and unsupported competitive claims
 
 **To install:** Add `skills/copywriting audit/SKILL.md` and `skills/copywriting audit/references/` via Claude → Settings → Skills.
 
