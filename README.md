@@ -30,6 +30,14 @@ Acts as Plaud's senior content and copy auditor. Covers:
 
 ## Changelog
 
+### 2026-04-29
+**`skills/copywriting audit/references/brand-tone-library.md`** _(new file)_
+- Added Brand Tone Library covering tone dimensions, structural rules, and Do/Don't examples for 6 content types: Ad Copy, EDM, PR Boilerplate, Landing Page, Product Description, and Video Scripts
+- Includes global banned words list and voice anchor
+
+**`skills/copywriting audit/SKILL.md`**
+- Added `brand-tone-library.md` to the references table
+
 ### 2026-03-19
 **`skills/copywriting audit/references/product-facts.md`** _(new file)_
 - Added cached product fact sheet covering all four hardware devices (Note Pro, Note, NotePin, NotePin S) and all software products

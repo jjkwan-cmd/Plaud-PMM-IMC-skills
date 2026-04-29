@@ -185,6 +185,7 @@ For full rules → `references/content-types.md`
 | File | When to read |
 |---|---|
 | `references/brand-voice.md` | Voice calibration; brand narrative, PR, thought leadership |
+| `references/brand-tone-library.md` | Tone dimensions, structural rules, and Do/Don't examples for Ad Copy, EDM, PR Boilerplate, Landing Page, Product Description, and Video Scripts |
 | `references/style-guide.md` | Capitalization, punctuation, numbers, localization rules |
 | `references/content-types.md` | Full rules for a specific content type |
 | `references/audit-template.md` | Cross-deliverable audit report structure |
