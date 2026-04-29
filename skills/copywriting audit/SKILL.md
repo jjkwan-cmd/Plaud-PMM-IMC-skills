@@ -180,12 +180,178 @@ For full rules → `references/content-types.md`
 
 ---
 
+## Brand tone library
+
+Voice = constant. Tone = adaptive. Apply the correct tone dimensions and structural rules for the content type being audited.
+
+**VOICE ANCHOR — ALWAYS ON**
+"A trusted Chief of Staff — intelligent, proactive, and composed."
+Intelligent · Professional · Human · Secure · Capture · Extract · Utilize
+
+**GLOBAL BANNED WORDS — APPLY EVERYWHERE**
+
+| Never use | Prefer instead |
+|---|---|
+| cutting-edge · revolutionary · seamless · next-level · powerful · robust · innovative · game-changer · unlock · leverage · empower · reimagine · amazing · very · really · just · actually · going forward | capture · extract · utilize · amplify · align · transform · act · bridge · intelligent · reliable · trusted · refined · structured · precise · clear |
+
+### 01 Ad copy
+
+**Tone dimensions**
+
+| Dimension | Setting | What this means |
+|---|---|---|
+| Formality | Low–Medium | Conversational but precise. No slang, no filler. |
+| Emotion | Focused | Confident, not urgent. Inspire action without pressure. |
+| Energy | Crisp & decisive | Short rhythm. Every sentence earns its place. |
+| Confidence | Strong & assured | Lead with the outcome. Let the product speak for itself. |
+
+**Structural rules**
+- Formula: Action + Performance + Benefit
+- Short-form (≤10 words): one idea, one verb, one clear outcome
+- Long-form (≤30 words): angle + proof point + CTA. Max two sentences
+- Headline: sentence case. CTA: Title Case, verb-first (e.g. "Shop NotePin S")
+- No exclamation marks. No em dashes. No rhetorical questions
+- Connect to at least one pillar: Capture, Extract, or Utilize
+
+**Do / Don't**
+
+| ✓ Do | ✕ Don't |
+|---|---|
+| *Never miss what matters. Plaud NotePin S captures every word, hands-free.* | *Revolutionary AI technology that will change how you take notes forever!* |
+| *Capture meetings. Extract insights. Plaud does the work.* | *Cutting-edge AI-powered note-taking solution for modern professionals.* |
+| *SOC 2 certified. HIPAA compliant. Your conversations stay yours.* | *Ultra-secure, next-level privacy that keeps your data 100% safe at all times!* |
+
+---
+
+### 02 EDM (email)
+
+**Tone dimensions**
+
+| Dimension | Setting | What this means |
+|---|---|---|
+| Formality | Medium | Professional but warm. Avoid stiff formality. |
+| Emotion | Calm & purposeful | No hype, no urgency bait. Reader decides at their own pace. |
+| Energy | Measured | Clear structure. Short paragraphs. One idea per section. |
+| Confidence | Guiding | Direct recommendations without pressure. Helpful, not salesy. |
+
+**Structural rules**
+- Subject line: ≤50 characters. Outcome-led. Sentence case. No punctuation at end
+- Preview text: extends the subject — not a repeat of it
+- Body: one primary message. Max two supporting points. Single CTA per email
+- Paragraphs: 2–3 sentences max
+- CTA button: Title Case, verb-first, 2–4 words (e.g. "Explore NotePin S")
+- Salutation: "Hi [Name]" — not "Dear", not "Hey"
+- No exclamation marks except onboarding welcome
+
+**Do / Don't**
+
+| ✓ Do | ✕ Don't |
+|---|---|
+| *Subject: Your meeting insights, structured automatically* | *Subject: HUGE NEWS: Check out what's new at Plaud!!! 🎉🎉* |
+| *Hi Sarah, Plaud NotePin S now integrates with Notion, your action items land there automatically.* | *Dear Valued Customer, We are thrilled to announce an amazing new revolutionary feature!* |
+| *CTA: Try It Free* | *CTA: CLICK HERE NOW TO GET STARTED TODAY!!!* |
+
+---
+
+### 03 PR boilerplate
+
+**Tone dimensions**
+
+| Dimension | Setting | What this means |
+|---|---|---|
+| Formality | High | Structured, institutional. Press-ready from first read. |
+| Emotion | Calm & composed | No excitement markers. Authority comes from facts, not adjectives. |
+| Energy | Measured & deliberate | Unhurried. Every sentence adds a fact or credential. |
+| Confidence | Quietly assured | The summary speaks for itself. No superlatives needed. |
+
+**Structural rules**
+- Open with: "Plaud is building the world's most trusted AI work companion for professionals."
+- Include: user count (1,500,000+), founding year (2023), incorporation (Delaware), HQ (San Francisco)
+- List all certifications exactly: ISO 27001, ISO 27701, SOC 2, HIPAA, GDPR, EN18031
+- Mission verbatim: "Amplify human intelligence."
+- Two paragraphs maximum. No marketing language
+- Never use: "leading," "best-in-class," "innovative," "revolutionary"
+
+---
+
+### 04 Landing page
+
+**Tone dimensions**
+
+| Dimension | Setting | What this means |
+|---|---|---|
+| Formality | Medium | Professional enough for B2B. Accessible enough for consumers. |
+| Emotion | Calm confidence | Inspire without pressure. Let clarity do the persuading. |
+| Energy | Measured & crisp | Hero: punchy. Body sections: structured. CTA: decisive. |
+| Confidence | Strong & grounded | Claims anchored to real specs and certifications. |
+
+**Structural rules**
+- H1: ≤30 characters. Outcome-led. Sentence case. No punctuation
+- Subheadline: ≤70 characters. Expands H1 — answers "so what?" or "for whom?"
+- Section headlines: ≤60 characters. Verb or noun-led. Sentence case
+- Body paragraphs: ≤140 characters. Active voice. No passive constructions
+- CTA: Title Case, verb-first, 2–4 words. Primary CTA above the fold
+- Connect hero copy to at least one pillar (Capture / Extract / Utilize)
+
+**Do / Don't**
+
+| ✓ Do | ✕ Don't |
+|---|---|
+| *H1: Capture every conversation, hands-free* | *H1: The Revolutionary AI-Powered Note-Taking Solution You've Been Waiting For!* |
+| *From meeting to action item in minutes. No setup. No effort. No missed detail.* | *Utilizing powerful AI, our platform empowers you to seamlessly transform conversations into actionable insights going forward.* |
+
+---
+
+### 05 Product description
+
+**Tone dimensions**
+
+| Dimension | Setting | What this means |
+|---|---|---|
+| Formality | Medium–High | Structured and credible. Reads like a trusted advisor, not a salesperson. |
+| Emotion | Composed | Warmth comes from clarity and confidence, not enthusiasm. |
+| Energy | Deliberate | Unhurried. Each feature earns its own sentence. |
+| Confidence | Quietly authoritative | State specs as facts. No hedging unless technically accurate. |
+
+**Structural rules**
+- Open with the product's primary job — what it does, for whom, in one sentence
+- Feature structure: Feature name → what it does → why it matters. One feature per bullet
+- Specs: always numeral + space + unit (e.g. 10 g, 256GB, 15 min)
+- Certifications listed individually: SOC 2, HIPAA, ISO 27001, ISO 27701, GDPR, EN18031
+- Adjectives sparingly. Prefer: intelligent, reliable, trusted, refined. Avoid: amazing, powerful, seamless
+
+---
+
+### 06 Video scripts
+
+**Tone dimensions**
+
+| Dimension | Setting | What this means |
+|---|---|---|
+| Formality | Low–Medium | Conversational but composed. Relaxed enough to feel human, precise enough to build trust. |
+| Emotion | Warm & composed | Unboxing: appreciative of craft. Quick start: reassuring and steady. Neither is excitable. |
+| Energy | Unhurried | Unboxing: slow at moments of reveal. Quick start: steady and methodical. |
+| Confidence | Quietly assured | Describe what is there. Let the product and process do the work. |
+
+**Structural rules — unboxing**
+- Structure: Opening (15s) → Box presentation (15s) → Each item reveal (10–15s) → Hero moment (20–30s) → Close (15s)
+- Describe what you see, feel, observe — not what the viewer should feel
+- Materials: precise adjectives only (matte, brushed, magnetic). Not vague (premium, beautiful)
+- No countdown energy. No "Let's GO!" No artificial anticipation
+
+**Structural rules — quick start guide**
+- Structure: What it does (10s) → What's in the box (15s) → Setup steps (60–90s) → First use (30s) → Wrap (10s)
+- One action per sentence. Maximum 12 words per instruction
+- Use second-person throughout. No passive voice
+- Never end a step ambiguously. "You'll hear a chime" confirms success. "The app should open" does not
+
+---
+
 ## References
 
 | File | When to read |
 |---|---|
 | `references/brand-voice.md` | Voice calibration; brand narrative, PR, thought leadership |
-| `references/brand-tone-library.md` | Tone dimensions, structural rules, and Do/Don't examples for Ad Copy, EDM, PR Boilerplate, Landing Page, Product Description, and Video Scripts |
 | `references/style-guide.md` | Capitalization, punctuation, numbers, localization rules |
 | `references/content-types.md` | Full rules for a specific content type |
 | `references/audit-template.md` | Cross-deliverable audit report structure |
